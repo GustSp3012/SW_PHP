@@ -1,0 +1,79 @@
+.customers {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+}
+
+.customers header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: solid 2px white;
+  margin-bottom: 10px;
+}
+.customers header .actions {
+  margin-bottom: 10px;
+}
+.customers header .actions a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 10px 15px rgba(255, 255, 255, 0.2);
+  transition: box-shadow 0.3s ease-in-out;
+}
+.customers header .actions a:hover {
+  box-shadow: 0 0 15px 10px rgba(255, 255, 255, 0.2);
+  font-size: 19px;
+}
+
+.customers .search-box {
+  padding: 5px;
+  background: transparent;
+  border-radius: 30px;
+}
+
+.customers .search-box input {
+  background: transparent;
+  color: white;
+  border: none;
+}
+
+.customers .table-container {
+  width: 100%;
+}
+.customers .table-container table {
+  width: 100%;
+}
+.customers .table-container table .actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.customers .table-container table td a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 6px;
+}
+
+.customers .table-container table td .ver:hover {
+  background: rgba(0, 0, 0, 0.28);
+  box-shadow: 0 0 15px 10px rgba(255, 255, 255, 0.2);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.customers .table-container table td .editar:hover {
+  background: rgba(28, 5, 237, 0.2);
+  box-shadow: 0 0 15px 10px rgba(255, 255, 255, 0.2);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.customers .table-container table td .deletar:hover {
+  background: rgba(191, 5, 5, 0.28);
+  box-shadow: 0 0 15px 10px rgba(255, 255, 255, 0.2);
+  transition: box-shadow 0.3s ease-in-out;
+}

@@ -1,0 +1,38 @@
+.content .view-section header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+.content .view-section header a {
+  display: inline;
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 10px;
+  box-shadow: 0 10px 15px rgba(255, 255, 255, 0.2);
+  transition: box-shadow 0.3s ease-in-out;
+}
+.content .view-section header a:hover {
+  box-shadow: 0 0 15px 10px rgba(255, 255, 255, 0.2);
+  font-size: 15px;
+}
+.content .view-section .dados div dt,
+dd,
+h3 {
+  font-family: "Poppins", serif;
+}
+.content .view-section .dados div h3 {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: rgba(216, 216, 5, 0.838);
+}
+.content .view-section .actions a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 6px;
+}

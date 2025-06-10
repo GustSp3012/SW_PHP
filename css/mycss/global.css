@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url(https://db.onlinewebfonts.com/c/0b216f8bdf463206aa8bf2986e29acab?family=Blueberry+Cupcake);
+
+@import url(bootstrap_edit.css);
+@import url(mobile.css);
+@import url(customers.css);
+@import url(add.css);
+@import url(view.css);
+@import url(modal.css);
+@import url(login.css);
+
+* {
+  font-family: "Blueberry Cupcake";
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none;
+}
+
+/* globais */
+.teste {
+  background-color: red;
+}
+
+/* Globais classes */
+.white {
+  color: white;
+}
+.white:hover {
+  color: antiquewhite;
+}
+
+/* Header template */
+.logo {
+  width: auto;
+  height: 50px;
+  /* filter: invert(1); */
+}
+
+.espaçamento {
+  margin-left: 100px;
+}
+.espaçamento_logo {
+  margin-left: 30px;
+}
+
+/* Fundo do site */
+.background-section {
+  background-image: url("../img_site/fundo.jpg"); /* Caminho da imagem */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* Ajustar altura ao conteúdo */
+  min-height: 100vh;
+  height: auto;
+
+  /* Centralizar conteúdo */
+  display: flex;
+  justify-content: center;
+}
+
+/* Conteúdo principal */
+.content {
+  width: 100%;
+  max-width: 1200px; /* Define um tamanho máximo para o conteúdo */
+  min-height: 100vh;
+  overflow-y: auto; /* Habilita a rolagem vertical no conteúdo */
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px; /* Espaçamento interno */
+  box-sizing: border-box; /* Inclui o padding no tamanho total */
+  color: white; /* Apenas para visibilidade do texto */
+}
+
+/* Index do site */
+.boxes {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  flex-wrap: wrap; /* Permite que os elementos se ajustem na largura disponível */
+}
+.coluna {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.myflex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.moldura {
+  background: rgba(0, 0, 0, 0.28);
+  border-radius: 10px;
+  text-align: center;
+  padding: 17px;
+  transition: all 0.3s ease-in-out;
+}
+.moldura:hover {
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.73);
+  transform: scale(1.05); /* Efeito ao passar o mouse */
+}
+.moldura a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 16px;
+}
+.moldura a:hover {
+  color: antiquewhite;
+}
+
+/* Ícones */
+i {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* tabelas formato  */
+td,
+th {
+  border-bottom: 1px solid white;
+  padding: 10px;
+}

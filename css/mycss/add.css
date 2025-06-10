@@ -1,0 +1,48 @@
+.form-section header {
+  border-bottom: 2px solid rgb(173, 173, 173);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
+
+.form-section header a {
+  display: none;
+}
+.form-section form {
+  margin-top: 10px;
+}
+
+.form-section form label {
+  font-family: "Poppins", serif;
+}
+.form-section form input {
+  background: transparent;
+  color: white;
+  font-family: "Poppins", serif;
+}
+.form-section form input:focus {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-family: "Poppins", serif;
+}
+
+.form-section form input::placeholder {
+  color: white;
+}
+
+.form-section form .actions button {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 6px;
+}
+
+.form-section form .actions a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 6px;
+}

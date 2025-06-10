@@ -1,0 +1,116 @@
+@media screen and (max-width: 801px) {
+  /* header template  */
+  .espaçamento_logo {
+    margin-left: 0px !important;
+  }
+  .espaçamento {
+    margin-left: 10px !important;
+  }
+  /* index site */
+  .moldura a {
+    font-size: 10px;
+  }
+}
+
+/* tablets */
+@media screen and (max-width: 768px) {
+  /* fundo site */
+  .background-section {
+    background-attachment: scroll; /* Remove o !important */
+  }
+  .some {
+    display: none;
+  }
+  /* add customers */
+  .content .form-section header a {
+    display: inline;
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(255, 255, 255, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  .content .form-section header a:hover {
+    box-shadow: 0 0 15px 10px rgba(255, 255, 255, 0.2);
+    font-size: 15px;
+  }
+  .content .view-section .dados div h3 {
+    display: none;
+  }
+}
+
+/* celulares */
+@media screen and (max-width: 560px) {
+  /* index site */
+  .content {
+    min-height: 100vh; /* Permite crescimento dinâmico */
+    height: auto; /* Remove limitação fixa */
+  }
+
+  .some-mobile {
+    display: none;
+  }
+
+  .my-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .boxes {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .moldura {
+    padding: 25px;
+  }
+  .moldura a {
+    font-size: 20px;
+  }
+
+  /* tabelas geral */
+  td,
+  th {
+    font-size: 12px;
+    border: none;
+  }
+
+  /* customers */
+
+  .customers {
+    padding: 0px;
+  }
+  .customers header .actions {
+    display: flex;
+    gap: 20px;
+  }
+  .customers .table-container table .actions {
+    gap: 10px;
+  }
+  .some {
+    display: none;
+  }
+
+  /* login */
+  .campo-login input {
+    padding: 10px 5px;
+  }
+  .login-container .login .campo-login input:focus {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 12px 5px;
+  }
+  .login-container .login .footer-login {
+    justify-content: space-around;
+  }
+  .login-container .login .footer-login button {
+    padding: 20px;
+  }
+  .login-container .login .footer-login a {
+    padding: 20px;
+  }
+}

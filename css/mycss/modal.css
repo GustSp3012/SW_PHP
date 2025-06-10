@@ -1,0 +1,55 @@
+.background-modal {
+  background-image: url("../img_site/fundo_farmacia.jpg"); /* Caminho da imagem */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.modal-header {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+}
+.modal-header .btn-modal {
+  border: 1px solid white;
+  background-color: transparent;
+  padding: 0px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-header .btn-modal i {
+  font-size: 50px;
+}
+.modal-footer {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+}
+
+.modal-footer a {
+  text-decoration: none;
+  color: white;
+  padding: 6px;
+  border-radius: 10px;
+  background: transparent;
+  border: 1px solid white;
+  box-shadow: 0 0 15px 10px rgba(255, 255, 255, 0.2);
+}
+.modal-footer button {
+  color: white;
+  padding: 6px;
+  border-radius: 10px;
+  background: rgba(195, 2, 2, 0.608);
+  border: 1px solid white;
+  box-shadow: 0 0 15px 10px rgba(255, 255, 255, 0.2);
+}

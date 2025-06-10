@@ -1,0 +1,39 @@
+.bg-body-tertiary {
+  background: linear-gradient(
+    to bottom,
+    rgba(88, 133, 255, 0.736),
+    rgba(70, 84, 209, 0.816)
+  );
+}
+
+.bg-dark {
+  background: linear-gradient(
+    to bottom,
+    rgba(91, 124, 225, 0.914),
+    rgba(56, 26, 251, 0.816)
+  ) !important ;
+}
+
+.navbar-brand {
+  color: white !important;
+  font-size: 30px !important;
+}
+
+/* Fundo e texto do dropdown */
+
+.dropdown-item {
+  color: #ffffff; /* Cor do texto dos itens */
+  transition: background-color 0.3s, color 0.3s; /* Transição suave ao passar o mouse */
+}
+
+/* Estilo ao passar o mouse */
+.dropdown-item:hover {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.914),
+    rgba(220, 238, 252, 0.816)
+  ) !important ;
+  color: blue !important;
+}
+
+/* Adicionando bordas arredondadas no dropdown (opcional) */
